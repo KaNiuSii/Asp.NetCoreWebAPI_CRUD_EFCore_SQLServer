@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\xt_api.props" />
+</Project>
