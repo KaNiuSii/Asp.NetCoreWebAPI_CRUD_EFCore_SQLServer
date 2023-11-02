@@ -12,16 +12,12 @@ To set up this project locally, follow the steps below:
 
 git clone https://github.com/KaNiuSii/Asp.NetCoreWebAPI_CRUD_EFCore_SQLServer.git
 
-2. Navigate to the project directory:
-
-cd Asp.NetCoreWebAPI_CRUD_EFCore_SQLServer
-
-3. Restore the necessary packages:
+2. Navigate to the project directory and restore the necessary packages:
 
 dotnet restore
 
-4. Update the database connection string in `appsettings.json` to match your SQL Server instance.
-5. Apply the migrations to your database to create the necessary tables:
+3. Update the database connection string in `appsettings.json` to match your SQL Server instance.
+4. Apply the migrations to your database to create the necessary tables:
 
 dotnet ef database update
 
